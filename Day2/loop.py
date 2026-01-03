@@ -25,7 +25,12 @@ for i in range(10, 0, -1):
     print(i)
     
 [list(map(int, input().split())) for i in range(3)]
-'''
 l = [1, 2, 3, 4, 5]
 l2 = [i for i in l if i != 3]
 print(l2)
+
+for i in range(10):
+    if i == 7: break
+    elif i % 2 == 0: continue
+    print(i)
+'''
