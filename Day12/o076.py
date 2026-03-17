@@ -7,7 +7,7 @@ for i in range(1,len(h)):
     else:
         if p > p_max: 
             p_max = p
-            p = 1
+        p = 1
 if p > p_max: 
     p_max = p
 print(p_max)
